@@ -1,0 +1,20 @@
+import Link from 'next/link'
+import React from 'react'
+
+const Donatebutton = () => {
+  return (
+    <div>
+        <Link href={"/donate"}>
+<button className="text-xl w-32 h-12 animate-pulse bg-emerald-600 text-white relative overflow-hidden group z-10 hover:text-white duration-1000 rounded-2xl">
+  <span className="absolute bg-emerald-400 w-36 h-36 rounded-full group-hover:scale-100 scale-0 -z-10 -left-2 -top-10 group-hover:duration-500 duration-700 origin-center transform transition-all" />
+  <span className="absolute bg-emerald-700 w-36 h-36 -left-2 -top-10 rounded-full group-hover:scale-100 scale-0 -z-10 group-hover:duration-700 duration-500 origin-center transform transition-all" />
+   <b>Donate Now</b> 
+</button>
+        </Link>
+
+
+    </div>
+  )
+}
+
+export default Donatebutton

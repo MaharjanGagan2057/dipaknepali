@@ -1,9 +1,17 @@
 import Image from "next/image";
 
+
+
 export default function Home() {
   return (
-    <div>
-      home page
+    <div className="display flex h-screen  w-screen items-center justify-between ">
+    <div className="w-[50%] h-screen bg-amber-200">
+      
+    </div>
+    <div className="w-[50%] h-screen bg-pink-200">
+    
+    </div>
+     
     </div>
     
   );
