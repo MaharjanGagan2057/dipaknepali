@@ -6,7 +6,7 @@ const Contact
   return (
     <div>
       
-        <section className="bg-gray-50  text-black dark:bg-gray-800  dark:text-white h-screen flex justify-center items-center">
+        <section className="bg-gray-100 text-black dark:bg-gray-800  dark:text-white h-screen flex justify-center items-center">
     <div className="container px-6 py-12 ">
         <div className="lg:flex lg:items-center lg:-mx-6">
             <div className="lg:w-1/2 lg:mx-6">
@@ -22,7 +22,7 @@ const Contact
                         </svg>
 
                         <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
-                            Kapan, Kathmandu, Nepal
+                            Kapan,
                         </span>
                     </p>
 
