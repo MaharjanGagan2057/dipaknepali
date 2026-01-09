@@ -38,6 +38,10 @@ export default function Home() {
     <div className="w-[50%] h-screen bg-pink-200">
     
     </div>
+
+    <div className=" h-screen bg-blue-900">
+
+    </div>
      
     </div>
     
