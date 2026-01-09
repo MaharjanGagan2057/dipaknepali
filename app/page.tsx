@@ -39,7 +39,7 @@ export default function Home() {
     
     </div>
 
-    <div className=" h-screen bg-blue-900">
+    <div className="  h-screen w-screen bg-blue-900">
 
     </div>
      
